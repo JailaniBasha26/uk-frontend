@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Dashboard from "./Dashboard/dashboard";
+import DashboardNew from "./Dashboard/dashboardNew";
+import reportWebVitals from "./reportWebVitals";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// axios.defaults.baseURL = "http://localhost:9500/";
+axios.defaults.baseURL = "https://c947-103-204-157-2.ngrok-free.app";
 root.render(
   <React.StrictMode>
-    <App />
+    <DashboardNew />
   </React.StrictMode>
 );
 

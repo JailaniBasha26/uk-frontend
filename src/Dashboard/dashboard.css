@@ -1,0 +1,133 @@
+.priceColumn {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.euroSymbol {
+    font-weight: 100;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+    background: #ffcfbf;
+    color: white;
+}
+
+a:hover {
+    color: #0030dd !important;
+}
+
+.dashboardGridDiv {
+    padding: 5em 5em 5em 5em;
+}
+
+.p-datatable-wrapper {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.p-datatable-header {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.image-container img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(2.2);
+}
+
+span.p-column-title {
+    color: black;
+}
+
+.addProductSizeDiv {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.addProductShopUrlTextBox {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.addProductMandatoryDiv {
+    padding: 2% 30% 3% 30%;
+}
+
+.addProductName {
+    height: 30px;
+    font-size: 15px;
+    width: 110%;
+}
+
+.addProductQuantity {
+
+    font-size: 15px;
+    height: 30px;
+}
+
+.addProductQuantity>input {
+    width: 60px;
+    text-align: center;
+}
+
+ul.p-dropdown-items {
+    padding-left: 0px;
+}
+
+.addProductDropdown {
+    height: 30px;
+    width: 69%;
+}
+
+span.p-dropdown-label.p-inputtext.p-placeholder {
+    margin-top: -8px;
+}
+
+span.p-dropdown-label.p-inputtext {
+    margin-top: -8px;
+    font-size: 15px;
+}
+
+.p-dropdown-items-wrapper {
+    max-height: 250px !important;
+}
+
+.addProductAddBtnDiv {
+    text-align: end;
+}
+
+.addProductAddBtn {
+    border-radius: 16px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.spinnerContainerStyle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000
+}
+
+.addProductBtnDiv {
+    text-align: end;
+    padding: 16px 0px 16px 0px;
+}
+
+.addProductBtn {
+    border-radius: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.p-datatable-wrapper {
+    padding-bottom: 10px;
+}
