@@ -483,6 +483,8 @@ export default function DashboardNew() {
         header={header}
         globalFilterFields={["productName", "category", "size"]}
         className="addProductGrid"
+        paginator
+        rows={5}
       >
         <Column body={productImage} style={{ width: "5%" }}></Column>
 
@@ -616,8 +618,8 @@ export default function DashboardNew() {
                 src={CoOpLogo}
                 alt="Logo"
                 style={{
-                  height: "25px",
-                  width: "50px",
+                  height: "40px",
+                  width: "70px",
                   verticalAlign: "middle",
                 }}
               />

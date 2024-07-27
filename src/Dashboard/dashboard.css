@@ -37,7 +37,7 @@ a:hover {
 }
 
 .image-container img:hover {
-    transform: scale(2.2);
+    transform: scale(2.8);
 }
 
 span.p-column-title {
@@ -129,5 +129,5 @@ span.p-dropdown-label.p-inputtext {
 }
 
 .p-datatable-wrapper {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
