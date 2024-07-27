@@ -426,7 +426,12 @@ export default function DashboardNew() {
           <br />
           <Row>
             <Col xl={1} lg={1} md={1} sm={1} xs={1}>
-              <img src={CoOpLogo} height={30} width={40} />
+              <img
+                src={CoOpLogo}
+                height={40}
+                width={70}
+                style={{ marginLeft: "-15px" }}
+              />
             </Col>
             <Col xl={5} lg={5} md={5} sm={5} xs={5}>
               <InputText
