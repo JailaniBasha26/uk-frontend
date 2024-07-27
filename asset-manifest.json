@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uk-frontend/static/css/main.2e649f1d.css",
-    "main.js": "/uk-frontend/static/js/main.356185e8.js",
+    "main.js": "/uk-frontend/static/js/main.08f4fab6.js",
     "static/js/453.e03d8469.chunk.js": "/uk-frontend/static/js/453.e03d8469.chunk.js",
     "static/media/Inter-italic.var.woff2?v=3.19": "/uk-frontend/static/media/Inter-italic.var.184ec460d45b3caf5b0b.woff2",
     "static/media/Inter-roman.var.woff2?v=3.19": "/uk-frontend/static/media/Inter-roman.var.71b058b66381db72226b.woff2",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/uk-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/uk-frontend/index.html",
     "main.2e649f1d.css.map": "/uk-frontend/static/css/main.2e649f1d.css.map",
-    "main.356185e8.js.map": "/uk-frontend/static/js/main.356185e8.js.map",
+    "main.08f4fab6.js.map": "/uk-frontend/static/js/main.08f4fab6.js.map",
     "453.e03d8469.chunk.js.map": "/uk-frontend/static/js/453.e03d8469.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e649f1d.css",
-    "static/js/main.356185e8.js"
+    "static/js/main.08f4fab6.js"
   ]
 }
