@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/uk-frontend/static/css/main.5db4980b.css",
+    "main.js": "/uk-frontend/static/js/main.1de8a0c3.js",
+    "static/js/453.e03d8469.chunk.js": "/uk-frontend/static/js/453.e03d8469.chunk.js",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/uk-frontend/static/media/Inter-italic.var.184ec460d45b3caf5b0b.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/uk-frontend/static/media/Inter-roman.var.71b058b66381db72226b.woff2",
+    "static/media/Tesco.png": "/uk-frontend/static/media/Tesco.8082877f4b98f878cb92.png",
+    "static/media/WaitRose.png": "/uk-frontend/static/media/WaitRose.80714b562d1ff24eba37.png",
+    "static/media/CoOp.png": "/uk-frontend/static/media/CoOp.c0ccc8eb21162663e0e1.png",
+    "static/media/Sainsbury.png": "/uk-frontend/static/media/Sainsbury.faa16010a229d9ce04c9.png",
+    "static/media/Morrisons.png": "/uk-frontend/static/media/Morrisons.0bd78028011ca530fca1.png",
+    "static/media/ASDA.png": "/uk-frontend/static/media/ASDA.f52ca7a8cb4c2b742e5c.png",
+    "static/media/Ocado.png": "/uk-frontend/static/media/Ocado.9fc0b9532edcc2b5e54a.png",
+    "static/media/Amazon.png": "/uk-frontend/static/media/Amazon.0a8be1f53138b5c52456.png",
+    "static/media/logo.svg": "/uk-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/uk-frontend/index.html",
+    "main.5db4980b.css.map": "/uk-frontend/static/css/main.5db4980b.css.map",
+    "main.1de8a0c3.js.map": "/uk-frontend/static/js/main.1de8a0c3.js.map",
+    "453.e03d8469.chunk.js.map": "/uk-frontend/static/js/453.e03d8469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5db4980b.css",
+    "static/js/main.1de8a0c3.js"
+  ]
+}
