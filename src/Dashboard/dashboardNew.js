@@ -240,13 +240,58 @@ export default function DashboardNew() {
 
   const addProduct = () => {
     setWebLoadingGif(true);
+    // let wrongUrlArray = [];
 
     addProductArray.map((i, idx) => {
       i.productName = productName;
       i.category = selectedCategory.name;
       i.quantity = quantity;
       i.measurement = selectedMeasurement.name;
+
+      // switch (i.shopName) {
+      //   case "ASDA":
+      //     if (!i.url.startsWith("https://groceries.asda.com/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Morrisons":
+      //     if (!i.url.startsWith("https://groceries.morrisons.com/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Sainsburys":
+      //     if (!i.url.startsWith("https://www.sainsburys.co.uk/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Tesco":
+      //     if (!i.url.startsWith("https://www.tesco.com/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Waitrose":
+      //     if (!i.url.startsWith("https://www.waitrose.com/ecom/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Ocado":
+      //     if (!i.url.startsWith("https://www.ocado.com/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "CoOp":
+      //     if (!i.url.startsWith("https://www.coop.co.uk/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+
+      //   case "Amazon":
+      //     if (!i.url.startsWith("https://www.amazon.co.uk/"))
+      //       wrongUrlArray.push(i.shopName);
+      //     break;
+      // }
     });
+
+    // console.log(wrongUrlArray, ">>> WRONG");
 
     axios.post("/insertProductMasterData", addProductArray).then((response) => {
       console.log(response, " !! POST DATA");
@@ -466,11 +511,11 @@ export default function DashboardNew() {
   return (
     <div>
       <div className="addProductBtnDiv">
-        {/* <Button
+        <Button
           label="Edit Product"
           onClick={() => setEditProductDialogBoxvisible(true)}
           className="addProductBtn"
-        /> */}
+        />
 
         <Button
           label="Add Product"

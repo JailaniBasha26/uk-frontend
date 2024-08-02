@@ -11,9 +11,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// axios.defaults.baseURL = "http://localhost:9500/";
-axios.defaults.baseURL =
-  "https://46b8-2409-40f4-1038-435e-a90f-7f-8273-8a43.ngrok-free.app";
+axios.defaults.baseURL = "http://localhost:9500/";
+// axios.defaults.baseURL =
+//   "https://46b8-2409-40f4-1038-435e-a90f-7f-8273-8a43.ngrok-free.app";
 root.render(
   <React.StrictMode>
     <DashboardNew />
