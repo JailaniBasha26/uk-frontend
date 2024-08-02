@@ -6,12 +6,14 @@ import Dashboard from "./Dashboard/dashboard";
 import DashboardNew from "./Dashboard/dashboardNew";
 import reportWebVitals from "./reportWebVitals";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
+import "primeicons/primeicons.css";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // axios.defaults.baseURL = "http://localhost:9500/";
-axios.defaults.baseURL = "https://c947-103-204-157-2.ngrok-free.app";
+axios.defaults.baseURL =
+  "https://46b8-2409-40f4-1038-435e-a90f-7f-8273-8a43.ngrok-free.app";
 root.render(
   <React.StrictMode>
     <DashboardNew />
